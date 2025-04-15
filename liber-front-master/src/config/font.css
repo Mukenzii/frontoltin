@@ -1,0 +1,62 @@
+/* @font-face {
+  font-family: 'Roboto';
+  src: url('../../public/font/Roboto-Light.ttf') format('truetype'),
+    url('../../public/font/Roboto-Black.ttf') format('truetype'),
+    url('../../public/font/Roboto-BlackItalic.ttf') format('truetype'),
+    url('../../public/font/Roboto-Bold.ttf') format('truetype'),
+    url('../../public/font/Roboto-Regular.ttf') format('truetype'),
+    url('../../public/font/Roboto-Thin.ttf') format('truetype'),
+    url('../../public/font/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nato';
+  src: url('../assets/font/Noto/NotoSans-Thin.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-Light.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-ExtraLight.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-Regular.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-Medium.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-SemiBold.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-ExtraBold.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-Bold.ttf') format('truetype'),
+    url('../assets/font/Noto/NotoSans-Black.ttf') format('truetype');
+} */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/font/Roboto/Roboto-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/font/Roboto/Roboto-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/font/Roboto/Roboto-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/font/Roboto/Roboto-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+  color:
+
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/font/Roboto/Roboto-Thin.ttf');
+  font-weight: 200;
+  font-style: normal;
+  background-color: #FFC310;
+}
+
+* {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #1C1014;
+}

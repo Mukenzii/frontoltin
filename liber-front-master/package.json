@@ -1,0 +1,101 @@
+{
+  "name": "liber",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Yahyo Temirov",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\" ",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
+    "lint-css": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --config",
+    "prepare": "husky install",
+    "check-types": "tsc --pretty --noEmit",
+    "check-format": "prettier \"src/**/*.{js,jsx,ts,tsx}\" --check  ",
+    "test-all": "yarn check-format && yarn check-lint && yarn check-types && yarn build",
+    "lint-format-stage": "lint-staged"
+  },
+  "dependencies": {
+    "@dccs/react-searchable-select-mui": "^0.2.11",
+    "@emotion/react": "^11.10.0",
+    "@hookform/devtools": "3.0.2",
+    "@hookform/resolvers": "^2.8.8",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.4.4",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "axios": "^0.27.2",
+    "i18next": "^21.6.14",
+    "lodash": "^4.17.21",
+    "next": "^12.3.1-canary.3",
+    "next-i18next": "^11.0.0",
+    "nextjs-progressbar": "^0.0.15",
+    "npm": "^10.1.0",
+    "otp-input-react": "^0.3.0",
+    "rc-slider": "^10.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-dropdown-select": "^4.9.0",
+    "react-hook-form": "^7.27.1",
+    "react-i18next": "^11.15.6",
+    "react-input-mask": "^2.0.4",
+    "react-jinke-music-player": "^4.24.2",
+    "react-loading": "^2.0.3",
+    "react-otp-input": "^2.4.0",
+    "react-phone-number-input": "^3.2.11",
+    "react-query": "^3.39.1",
+    "react-reader": "^0.21.3",
+    "react-select": "^5.5.2",
+    "react-timer-hook": "^3.0.5",
+    "react-toastify": "^9.0.8",
+    "regenerator-runtime": "^0.13.9",
+    "sharp": "^0.32.6",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.1.4",
+    "yup": "^0.32.11"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write \"src/**/*.{ts,tsx}\" "
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "17.0.21",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "17.0.39",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.24",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "babel-plugin-styled-components": "^2.0.6",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "12.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-prettier": "^1.2.0",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "typescript": "4.6.2"
+  }
+}
